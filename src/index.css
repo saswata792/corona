@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #5e5e5e;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p { color: #dbdbdb; font-family: 'Helvetica Neue', sans-serif; font-size: 1.5em; line-height: 24px; margin: 0 0 24px; text-align: justify; text-justify: inter-word; text-align: center; }
+
+h1 { color: #ffffff; font-family: 'Helvetica Neue', sans-serif; font-size: 3em; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
+
+.form_field {
+  display: flex;
+  justify-content: space-around;
+  /*in justify statement we put the staff in middle and space around just provides space around it*/
+}
+
+input[type=search] {
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  margin: 2em;
+  width:55%;
+  background-color: inherit;/*takes the background colour*/
+  color: #ffffff;
+  transition: all .2s ease-in-out;/*when focused i.e. putting the cursor on it,the display will occur slowly*/
+}
+input[type=search]:focus {
+  transform: scale(1.05); /*transform will occur 1.05 times of the default one when cursor is placed on it */
+}
+
+.box{
+  border: 2px solid #242424;
+  margin: 2em;
+  background-color: #242424;
+}
